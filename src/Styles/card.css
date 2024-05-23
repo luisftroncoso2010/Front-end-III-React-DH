@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(154, 125, 125, 0.5);
+    color: black;
+    
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;     
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+form{    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;     
+    justify-content: center;
+    align-items: center;              
+}
+
+
+input{
+    width: 80vh;
+    height: 7vh;
+    margin: 0.5vh;
+    border-radius: 6%;
+}
+
+.boton-enviar{
+    width: 80vh;
+    height: 5vh;
+    background-color: azure;
+    font-weight: bold;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    background-color: white;
+    width: 50vh;
+    height: 20vh;    
+}
+
+p, span {
+    font-weight: bold;
+    font-size: 1em;
+
+}
+
+
